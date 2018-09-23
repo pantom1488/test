@@ -2,4 +2,6 @@ echo "alias cd=\"osascript -e 'set volume 10' && say -v Yuri Перехожу в
 echo "alias vim=\"osascript -e 'set volume 10' && say -v Yuri Вим запускается && vim\"" >> ~/.zshrc
 echo "alias ls=\"osascript -e 'set volume 10' && say -v Yuri Вывожу список файлов && ls\"" >> ~/.zshrc
 echo "alias norminette=\"osascript -e 'set volume 10' && say -v Yuri Что по норме && norminette\"" >> ~/.zshrc
-source ~/.zshrc
+killall iTerm
+killall Terminal
+killall iTerm2
