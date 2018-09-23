@@ -1,5 +1,5 @@
-echo "alias cd=\"osascript -e \"set volume 100\" && say -v Yuri Перехожу в директорию && cd\"" >> ~/.zshrc
-echo "alias vim=\"osascript -e \"set volume 100\" && say -v Yuri Вим запускается && vim\"" >> ~/.zshrc
-echo "alias ls=\"osascript -e \"set volume 100\" && say -v Yuri Вывожу список файлов && ls\"" >> ~/.zshrc
-echo "alias norminette=\"osascript -e \"set volume 100\" && say -v Yuri Что по норме && norminette\"" >> ~/.zshrc
+echo "alias cd=\"osascript -e 'set volume 10' && say -v Yuri Перехожу в директорию && cd\"" >> ~/.zshrc
+echo "alias vim=\"osascript -e 'set volume 10' && say -v Yuri Вим запускается && vim\"" >> ~/.zshrc
+echo "alias ls=\"osascript -e 'set volume 10' && say -v Yuri Вывожу список файлов && ls\"" >> ~/.zshrc
+echo "alias norminette=\"osascript -e 'set volume 10' && say -v Yuri Что по норме && norminette\"" >> ~/.zshrc
 source ~/.zshrc
